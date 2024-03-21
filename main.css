@@ -248,6 +248,22 @@
   margin-bottom: 20px;
 }
 
+.footer {
+  background-color: #000;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+.footer .footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 100px;
+}
+.footer .footer-links .footer-links__icon {
+  height: 100px;
+  width: 100px;
+}
+
 .header {
   font-size: 45px;
   font-family: "Questrial", sans-serif;
