@@ -233,3 +233,34 @@
         }
     }
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+
+    .projects-example__screenshot {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .projects-description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .projects-description__title {
+            max-width: 500px;
+            word-break: keep-all;
+        }
+
+        .projects-links {
+
+            .projects-links__icon {
+                height: 80px;
+                width: 80px;
+            }
+        }
+    }
+}

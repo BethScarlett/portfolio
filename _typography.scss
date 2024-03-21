@@ -46,3 +46,20 @@
         font-family: $paragraph-1;
     }
 }
+
+.projects {
+
+    .projects__heading {
+        font-size: 35px;
+        font-family: $heading-1;
+        font-weight: 500px;
+    }
+
+    .projects-description {
+        
+        .projects-description__title {
+            font-size: 30px;
+            font-family: $paragraph-1;
+        }
+    }
+}
