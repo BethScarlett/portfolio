@@ -1,0 +1,6 @@
+@use "./variables" as *;
+
+.header {
+    font-size: 45px;
+    font-family: $header;
+}
