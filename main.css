@@ -233,6 +233,21 @@
   width: 80px;
 }
 
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+.contact-me .contact-me__link {
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 20px 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .header {
   font-size: 45px;
   font-family: "Questrial", sans-serif;
@@ -276,4 +291,16 @@
 .projects .projects-description .projects-description__title {
   font-size: 30px;
   font-family: "Public Sans", sans-serif;
+}
+
+.contact-me {
+  text-align: center;
+}
+.contact-me .contact-me__heading {
+  font-size: 140px;
+}
+.contact-me .contact-me__link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
 }/*# sourceMappingURL=main.css.map */
