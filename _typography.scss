@@ -18,3 +18,17 @@
         font-family: $paragraph-1;
     }
 }
+
+.about-me {
+
+    .about-me__heading {
+        font-size: 35px;
+        font-family: $heading-1;
+        font-weight: 500px;
+    }
+
+    .about-me__description {
+        font-size: 25px;
+        font-family: $paragraph-1;
+        }
+}
