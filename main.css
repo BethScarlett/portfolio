@@ -25,10 +25,6 @@
   padding-bottom: 40px;
 }
 
-.skills {
-  display: none;
-}
-
 .about-me {
   display: flex;
   flex-direction: column;
@@ -46,6 +42,171 @@
 }
 .about-me .about-me__description {
   padding-top: 30px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.skills .skills__heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.skills .skills__description {
+  padding-bottom: 30px;
+}
+.skills .skills__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 50px 150px 50px 150px 50px;
+}
+.skills .skills__list .skills__list__icon-git {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-git {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__icon-html5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-html5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__icon-css3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-css3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__icon-javascript {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-javascript {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__icon-scss {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-scss {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__icon-bem {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-bem {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__icon-react {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-react {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__icon-java {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-java {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__icon-springboot {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  justify-self: center;
+  align-self: center;
+}
+.skills .skills__list .skills__list__name-springboot {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  justify-self: center;
+  align-self: center;
 }
 
 .header {
@@ -69,6 +230,16 @@
   font-weight: 500px;
 }
 .about-me .about-me__description {
+  font-size: 25px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.skills .skills__heading {
+  font-size: 35px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 500px;
+}
+.skills .skills__description {
   font-size: 25px;
   font-family: "Public Sans", sans-serif;
 }/*# sourceMappingURL=main.css.map */

@@ -32,3 +32,17 @@
         font-family: $paragraph-1;
         }
 }
+
+.skills {
+
+    .skills__heading {
+        font-size: 35px;
+        font-family: $heading-1;
+        font-weight: 500px;
+    }
+
+    .skills__description {
+        font-size: 25px;
+        font-family: $paragraph-1;
+    }
+}
