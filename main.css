@@ -10,7 +10,19 @@
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-  padding-top: 10px;
+  padding-top: 30px;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+}
+.intro-section .intro-section__description {
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .skills {
@@ -20,4 +32,14 @@
 .header {
   font-size: 45px;
   font-family: "Questrial", sans-serif;
+  font-weight: bold;
+}
+
+.intro-section .intro-section__heading {
+  font-size: 110px;
+  font-family: "Public Sans", sans-serif;
+}
+.intro-section .intro-section__description {
+  font-size: 30px;
+  font-family: "Public Sans", sans-serif;
 }/*# sourceMappingURL=main.css.map */

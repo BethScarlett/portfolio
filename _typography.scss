@@ -2,5 +2,19 @@
 
 .header {
     font-size: 45px;
-    font-family: $header;
+    font-family: $heading-1;
+    font-weight: bold;
+}
+
+.intro-section {
+
+    .intro-section__heading {
+        font-size: 110px;
+        font-family: $heading-2;
+    }
+
+    .intro-section__description {
+        font-size: 30px;
+        font-family: $paragraph-1;
+    }
 }
