@@ -1,138 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
-    <header class="header">
-        Bethany Burrows
-    </header>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header class="header">Bethany Burrows</header>
     <main>
+      <section class="intro-section">
+        <h1 class="intro-section__heading">Junior Software Developer</h1>
+        <p class="intro-section__description">
+          Hello there! My name is Bethany Burrows and I'm an aspiring Junior
+          Software Developer. Read on to learn more about myself and the
+          projects I have developed.
+        </p>
+      </section>
 
-        <section class="intro-section">
-            <h1 class="intro-section__heading">Junior Software Developer</h1>
-            <p class="intro-section__description">Hello there! My name is Bethany Burrows and I'm an aspiring Junior 
-                Software Developer. Read on to learn more about myself and the projects I have developed.
-            </p>
-        </section>
+      <section class="about-me">
+        <h2 class="about-me__heading">About me.</h2>
+        <img
+          src="./images/self-portrait.png"
+          alt="Portrait of Bethany Burrows"
+          class="about-me__portrait"
+        />
+        <p class="about-me__description">
+          Having been based in North Wales my whole life, I have grown up with a
+          serious intrest in technology and computing. I've completed several
+          tech based courses, which include an Extended Diploma at college
+          level, attaining a grade of DMM, and a Computer Game Development
+          degree at university level, attaining a grade of 2:1.
+        </p>
+        <p class="about-me__description">
+          Software Development has always interested me as evidenced above. As
+          such I have been developing my skills with the view of forging a
+          career path within the sector. Keep reading to view my list of skills,
+          as well as completed projects.
+        </p>
+      </section>
 
-        <section class="about-me">
-            <h2 class="about-me__heading">About me.</h2>
-            <img src="./images/self-portrait.png" alt="Portrait of Bethany Burrows" class="about-me__portrait">
-            <p class="about-me__description">Having been based in North Wales my whole life, I have grown up with a serious intrest in technology
-                and computing. I've completed several tech based courses, which include an Extended Diploma at college level, attaining
-                a grade of DMM, and a Computer Game Development degree at university level, attaining a grade of 2:1.</p>
-            <p class="about-me__description">Software Development has always interested me as evidenced above. As such I have been developing 
-                my skills with the view of forging a career path within the sector. Keep reading to view my list of skills, as 
-                well as completed projects.</p>
-        </section>
+      <section class="skills">
+        <h2 class="skills__heading">Skills</h2>
+        <p class="skills__description">My skills include:</p>
+        <div class="skills__list">
+          <span class="skills__entry">
+            <img
+              src="./images/git-logo.png"
+              alt="git-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">Git</lable>
+          </span>
+          <span class="skills__entry">
+            <img
+              src="./images/html5-logo.png"
+              alt="html5-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">HTML5</lable>
+          </span>
+          <span class="skills__entry">
+            <img
+              src="./images/css3-logo.png"
+              alt="css3-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">CSS3</lable>
+          </span>
+          <span class="skills__entry">
+            <img
+              src="./images/javascript-logo.png"
+              alt="javascript-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">JavaScript</lable>
+          </span>
+          <span class="skills__entry">
+            <img
+              src="./images/scss-logo.png"
+              alt="scss-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">SCSS</lable>
+          </span>
+          <span class="skills__entry">
+            <img
+              src="./images/bem-logo.png"
+              alt="bem-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">BEM</lable>
+          </span>
+          <span class="skills__entry">
+            <img
+              src="./images/react-logo.png"
+              alt="react-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">React</lable>
+          </span>
+          <span class="skills__entry">
+            <img
+              src="./images/java-logo.png"
+              alt="java-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">Java</lable>
+          </span>
+          <span class="skills__entry">
+            <img
+              src="./images/springboot-logo.png"
+              alt="springboot-logo"
+              class="skills__entry--icon"
+            />
+            <lable class="skills__entry--name">Spring Boot</lable>
+          </span>
+        </div>
+      </section>
 
-        <section class="skills">
-            <h2 class="skills__heading">Skills</h2>
-            <p class="skills__description">My skills include: </p>
-                <ul class="skills__list">
-                    <img class="skills__list__icon-git" src="./images/git-logo.png">
-                    <li class="skills__list__name-git">Git</li>
-                    <img class="skills__list__icon-html5" src="./images/html5-logo.png">
-                    <li class="skills__list__name-html5">HTML5</li>
-                    <img class="skills__list__icon-css3" src="./images/css3-logo.png">
-                    <li class="skills__list__name-css3">CSS3</li>
-                    <img class="skills__list__icon-javascript" src="./images/javascript-logo.png">
-                    <li class="skills__list__name-javascript">JavaScript</li>
-                    <img class="skills__list__icon-scss" src="./images/scss-logo.png">
-                    <li class="skills__list__name-scss">SCSS</li>
-                    <img class="skills__list__icon-bem" src="./images/bem-logo.png">
-                    <li class="skills__list__name-bem">BEM</li>
-                    <img class="skills__list__icon-react" src="./images/react-logo.png">
-                    <li class="skills__list__name-react">React</li>
-                    <img class="skills__list__icon-java" src="./images/java-logo.png">
-                    <li class="skills__list__name-java">Java</li>
-                    <img class="skills__list__icon-springboot" src="./images/springboot-logo.png">
-                    <li class="skills__list__name-springboot">Spring Boot</li>
-                </ul>
-        </section>
+      <section class="projects">
+        <h2 class="projects__heading">Portfolio</h2>
+        <div class="projects-example">
+          <img
+            src="./images/project-placeholder.png"
+            alt="Screenshot of Project 1"
+            class="projects-example__screenshot"
+          />
+          <div class="projects-description">
+            <h3 class="projects-description__title">Project 1</h3>
+            <span class="projects-links">
+              <img
+                src="./images/project-preview-link-icon.PNG"
+                alt="Link to preview of code deployment"
+                class="projects-links__icon"
+              />
+              <img
+                src="./images/project-github-link-icon.PNG"
+                alt="Link to code on github"
+                class="projects-links__icon"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="projects-example">
+          <img
+            src="./images/project-placeholder.png"
+            alt="Screenshot of Project 1"
+            class="projects-example__screenshot"
+          />
+          <div class="projects-description">
+            <h3 class="projects-description__title">Project 1</h3>
+            <span class="projects-links">
+              <img
+                src="./images/project-preview-link-icon.PNG"
+                alt="Link to preview of code deployment"
+                class="projects-links__icon"
+              />
+              <img
+                src="./images/project-github-link-icon.PNG"
+                alt="Link to code on github"
+                class="projects-links__icon"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="projects-example">
+          <img
+            src="./images/project-placeholder.png"
+            alt="Screenshot of Project 1"
+            class="projects-example__screenshot"
+          />
+          <div class="projects-description">
+            <h3 class="projects-description__title">Project 1</h3>
+            <span class="projects-links">
+              <img
+                src="./images/project-preview-link-icon.PNG"
+                alt="Link to preview of code deployment"
+                class="projects-links__icon"
+              />
+              <img
+                src="./images/project-github-link-icon.PNG"
+                alt="Link to code on github"
+                class="projects-links__icon"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="projects-example">
+          <img
+            src="./images/project-placeholder.png"
+            alt="Screenshot of Project 1"
+            class="projects-example__screenshot"
+          />
+          <div class="projects-description">
+            <h3 class="projects-description__title">Project 1</h3>
+            <span class="projects-links">
+              <img
+                src="./images/project-preview-link-icon.PNG"
+                alt="Link to preview of code deployment"
+                class="projects-links__icon"
+              />
+              <img
+                src="./images/project-github-link-icon.PNG"
+                alt="Link to code on github"
+                class="projects-links__icon"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="projects-example">
+          <img
+            src="./images/project-placeholder.png"
+            alt="Screenshot of Project 1"
+            class="projects-example__screenshot"
+          />
+          <div class="projects-description">
+            <h3 class="projects-description__title">Project 1</h3>
+            <span class="projects-links">
+              <img
+                src="./images/project-preview-link-icon.PNG"
+                alt="Link to preview of code deployment"
+                class="projects-links__icon"
+              />
+              <img
+                src="./images/project-github-link-icon.PNG"
+                alt="Link to code on github"
+                class="projects-links__icon"
+              />
+            </span>
+          </div>
+        </div>
+        <div class="projects-example">
+          <img
+            src="./images/project-placeholder.png"
+            alt="Screenshot of Project 1"
+            class="projects-example__screenshot"
+          />
+          <div class="projects-description">
+            <h3 class="projects-description__title">Project 1</h3>
+            <span class="projects-links">
+              <img
+                src="./images/project-preview-link-icon.PNG"
+                alt="Link to preview of code deployment"
+                class="projects-links__icon"
+              />
+              <img
+                src="./images/project-github-link-icon.PNG"
+                alt="Link to code on github"
+                class="projects-links__icon"
+              />
+            </span>
+          </div>
+        </div>
+      </section>
 
-        <section class="projects">
-            <h2 class="projects__heading">Portfolio</h2>
-            <div class="projects-example">
-                <img src="./images/project-placeholder.png" alt="Screenshot of Project 1" class="projects-example__screenshot">
-                <div class="projects-description">
-                    <h3 class="projects-description__title">Project 1</h3>
-                    <span class="projects-links">
-                        <img src="./images/project-preview-link-icon.PNG" alt="Link to preview of code deployment" class="projects-links__icon">
-                        <img src="./images/project-github-link-icon.PNG" alt="Link to code on github" class="projects-links__icon">
-                    </span>
-                </div>
-            </div>
-            <div class="projects-example">
-                <img src="./images/project-placeholder.png" alt="Screenshot of Project 1" class="projects-example__screenshot">
-                <div class="projects-description">
-                    <h3 class="projects-description__title">Project 1</h3>
-                    <span class="projects-links">
-                        <img src="./images/project-preview-link-icon.PNG" alt="Link to preview of code deployment" class="projects-links__icon">
-                        <img src="./images/project-github-link-icon.PNG" alt="Link to code on github" class="projects-links__icon">
-                    </span>
-                </div>
-            </div>
-            <div class="projects-example">
-                <img src="./images/project-placeholder.png" alt="Screenshot of Project 1" class="projects-example__screenshot">
-                <div class="projects-description">
-                    <h3 class="projects-description__title">Project 1</h3>
-                    <span class="projects-links">
-                        <img src="./images/project-preview-link-icon.PNG" alt="Link to preview of code deployment" class="projects-links__icon">
-                        <img src="./images/project-github-link-icon.PNG" alt="Link to code on github" class="projects-links__icon">
-                    </span>
-                </div>
-            </div>
-            <div class="projects-example">
-                <img src="./images/project-placeholder.png" alt="Screenshot of Project 1" class="projects-example__screenshot">
-                <div class="projects-description">
-                    <h3 class="projects-description__title">Project 1</h3>
-                    <span class="projects-links">
-                        <img src="./images/project-preview-link-icon.PNG" alt="Link to preview of code deployment" class="projects-links__icon">
-                        <img src="./images/project-github-link-icon.PNG" alt="Link to code on github" class="projects-links__icon">
-                    </span>
-                </div>
-            </div>
-            <div class="projects-example">
-                <img src="./images/project-placeholder.png" alt="Screenshot of Project 1" class="projects-example__screenshot">
-                <div class="projects-description">
-                    <h3 class="projects-description__title">Project 1</h3>
-                    <span class="projects-links">
-                        <img src="./images/project-preview-link-icon.PNG" alt="Link to preview of code deployment" class="projects-links__icon">
-                        <img src="./images/project-github-link-icon.PNG" alt="Link to code on github" class="projects-links__icon">
-                    </span>
-                </div>
-            </div>
-            <div class="projects-example">
-                <img src="./images/project-placeholder.png" alt="Screenshot of Project 1" class="projects-example__screenshot">
-                <div class="projects-description">
-                    <h3 class="projects-description__title">Project 1</h3>
-                    <span class="projects-links">
-                        <img src="./images/project-preview-link-icon.PNG" alt="Link to preview of code deployment" class="projects-links__icon">
-                        <img src="./images/project-github-link-icon.PNG" alt="Link to code on github" class="projects-links__icon">
-                    </span>
-                </div>
-            </div>
-        </section>
+      <section class="contact-me">
+        <h2 class="contact-me__heading">Get in touch</h2>
+        <a href="#" class="contact-me__link">Contact</a>
+      </section>
 
-        <section class="contact-me">
-            <h2 class="contact-me__heading">Get in touch</h2>
-            <a href="#" class="contact-me__link">Contact</a>
-        </section>
-
-        <footer class="footer">
-            <div class="footer-links">
-                <img src="./images/linkedin-icon.PNG" alt="Link to linked in page" class="footer-links__icon">
-                <img src="./images/github-icon.PNG" alt="Link to github page" class="footer-links__icon">
-                <img src="./images/cv-icon.PNG" alt="Link to CV" class="footer-links__icon">
-            </div>
-        </footer>
-
+      <footer class="footer">
+        <div class="footer-links">
+          <img
+            src="./images/linkedin-icon.PNG"
+            alt="Link to linked in page"
+            class="footer-links__icon"
+          />
+          <img
+            src="./images/github-icon.PNG"
+            alt="Link to github page"
+            class="footer-links__icon"
+          />
+          <img
+            src="./images/cv-icon.PNG"
+            alt="Link to CV"
+            class="footer-links__icon"
+          />
+        </div>
+      </footer>
     </main>
-    
-</body>
+  </body>
 </html>
