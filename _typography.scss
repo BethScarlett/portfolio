@@ -1,79 +1,68 @@
 @use "./variables" as *;
 
-.header {
-    font-size: 45px;
-    font-family: $heading-1;
-    font-weight: bold;
+.header__heading {
+  font-size: 45px;
+  font-family: $heading-1;
+  font-weight: bold;
 }
 
 .intro-section {
+  .intro-section__heading {
+    font-size: 110px;
+    font-family: $heading-2;
+  }
 
-    .intro-section__heading {
-        font-size: 110px;
-        font-family: $heading-2;
-    }
-
-    .intro-section__description {
-        font-size: 30px;
-        font-family: $paragraph-1;
-    }
+  .intro-section__description {
+    font-size: 30px;
+    font-family: $paragraph-1;
+  }
 }
 
 .about-me {
+  .about-me__heading {
+    font-size: 35px;
+    font-family: $heading-1;
+    font-weight: 500px;
+  }
 
-    .about-me__heading {
-        font-size: 35px;
-        font-family: $heading-1;
-        font-weight: 500px;
-    }
-
-    .about-me__description {
-        font-size: 25px;
-        font-family: $paragraph-1;
-        }
+  .about-me__description {
+    font-size: 25px;
+    font-family: $paragraph-1;
+  }
 }
 
 .skills {
+  .skills__heading {
+    font-size: 35px;
+    font-family: $heading-1;
+    font-weight: 500px;
+  }
 
-    .skills__heading {
-        font-size: 35px;
-        font-family: $heading-1;
-        font-weight: 500px;
-    }
-
-    .skills__description {
-        font-size: 25px;
-        font-family: $paragraph-1;
-    }
+  .skills__description {
+    font-size: 25px;
+    font-family: $paragraph-1;
+  }
 }
 
 .projects {
+  .projects__heading {
+    font-size: 35px;
+    font-family: $heading-1;
+    font-weight: 500px;
+  }
 
-    .projects__heading {
-        font-size: 35px;
-        font-family: $heading-1;
-        font-weight: 500px;
+  .projects-description {
+    .projects-description__title {
+      font-size: 30px;
+      font-family: $paragraph-1;
     }
-
-    .projects-description {
-        
-        .projects-description__title {
-            font-size: 30px;
-            font-family: $paragraph-1;
-        }
-    }
+  }
 }
 
 .contact-me {
-    text-align: center;
+  text-align: center;
 
-    .contact-me__heading {
-        font-size: 140px;
-    }
-
-    .contact-me__link {
-        text-decoration: none;
-        color: black;
-        font-size: 30px;
-    }
+  .contact-me__heading {
+    font-size: 140px;
+  }
 }

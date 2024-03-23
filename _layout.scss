@@ -10,8 +10,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 20px 50px;
   padding-top: 30px;
+
+  .header-navigation {
+    width: 50%;
+    display: none;
+    justify-content: space-evenly;
+  }
 }
 
 .intro-section {
@@ -126,14 +132,6 @@
   width: 90%;
   margin: auto;
   align-items: center;
-
-  .contact-me__link {
-    border: 2px solid black;
-    border-radius: 3px;
-    padding: 20px 40px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
 }
 
 .footer {
@@ -193,6 +191,15 @@
 }
 
 @media screen and (min-width: 1538px) {
+  .header {
+    margin-left: 90px;
+    justify-content: space-between;
+
+    .header-navigation {
+      display: flex;
+    }
+  }
+
   .about-me {
     .about-me-content {
       display: flex;

@@ -7,7 +7,33 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <header class="header">Bethany Burrows</header>
+    <header>
+      <div class="header">
+        <h1 class="header__heading">Bethany Burrows</h1>
+        <nav class="header-navigation">
+          <button
+            class="header-navigation__button header-navigation__button--active"
+          >
+            About
+          </button>
+          <button
+            class="header-navigation__button header-navigation__button--active"
+          >
+            Skills
+          </button>
+          <button
+            class="header-navigation__button header-navigation__button--active"
+          >
+            Portfolio
+          </button>
+          <button
+            class="header-navigation__button header-navigation__button--active"
+          >
+            Contact-me
+          </button>
+        </nav>
+      </div>
+    </header>
     <main>
       <section class="intro-section">
         <h1 class="intro-section__heading">Junior Software Developer</h1>
@@ -261,7 +287,9 @@
 
       <section class="contact-me">
         <h2 class="contact-me__heading">Get in touch</h2>
-        <a href="#" class="contact-me__link">Contact</a>
+        <button class="contact-me__link contact-me__link--active">
+          Contact
+        </button>
       </section>
 
       <footer class="footer">

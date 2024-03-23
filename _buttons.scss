@@ -1,0 +1,33 @@
+@use "./variables" as *;
+
+.header-navigation__button {
+  padding: 20px 50px;
+  border: none;
+  border-radius: 10px;
+  font-family: $button-1;
+  font-size: 18px;
+  background-color: $button-colour-1;
+
+  &.header-navigation__button--active:hover {
+    background-color: $button-colour-2;
+    color: $font-colour-1;
+    transition: all 0.3s ease;
+  }
+}
+
+.contact-me__link {
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 20px 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+
+  &.contact-me__link--active:hover {
+    padding: 30px 50px;
+    margin-bottom: 0px;
+    transition: all 0.3s ease-in-out;
+  }
+}
