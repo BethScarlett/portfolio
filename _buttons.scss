@@ -31,3 +31,24 @@
     transition: all 0.3s ease-in-out;
   }
 }
+
+.projects-links-clickable {
+  text-decoration: none;
+  .projects-links__icon {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.projects-links-clickable__goto {
+  display: none;
+  position: absolute;
+  padding: 5px 5px;
+  background-color: $button-colour-3;
+  border: 1px solid $footer;
+  border-radius: 2px;
+}
+
+.projects-links-clickable:hover .projects-links-clickable__goto {
+  display: inline;
+}
