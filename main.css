@@ -274,8 +274,8 @@
   text-decoration: none;
 }
 .projects-links-clickable .projects-links__icon {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .projects-links-clickable__goto {
