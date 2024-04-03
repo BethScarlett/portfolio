@@ -92,6 +92,7 @@
   margin: auto;
 }
 .projects .projects-example__screenshot {
+  height: 350px;
   width: 100%;
   padding: 20px 0;
 }
